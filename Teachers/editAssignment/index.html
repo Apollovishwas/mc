@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+<title>mCollege</title>
+<meta charset="UTF-8">
+<meta name="description" content="Rooney Portfolio Template">
+<meta name="keywords" content="personal, portfolio">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!-- Stylesheets -->
+        <link rel="stylesheet" href="assets/css/styles.min.css">
+
+    <link rel="stylesheet" href="css/style.css"/>
+      <link rel="stylesheet" href="../css/loader.css"/>
+  	<!--[if lt IE 9]>
+  	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  	<![endif]--> 
+    
+    <!-- FAVICON  -->
+    <link rel="shortcut icon" href="img/miniLogo.png">    
+
+	<!-- Font icons --> 
+    <link rel="stylesheet" href="icon-fonts/fontawesome-5.8.1/css/all.min.css"/>
+
+	   <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900" rel="stylesheet">
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/css/uikit.min.css"/>
+
+<style>
+    
+        body,html {
+        background-color: #141414 !important;
+    }
+    
+    .image{
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+    
+    
+    .cardsAppend {
+        margin-top: 7%;
+    }
+    
+    
+    .yourCourses {
+        color: white;
+        margin-top:5%;
+    }
+    .theDescription {
+       
+    }
+    
+    
+    
+     .lds-ellipsis {
+    left: 47%;
+        display:block;
+    }
+    
+    </style>
+</head>
+
+	<body>
+
+    <!-- Preloading --> 
+    <div id="preloader">
+      <div class="spinner">
+            <div class="uil-ripple-css" style="transform:scale(0.29);"><div></div><div></div></div>
+        </div>
+    </div>
+
+  <div class="page-loader show"></div>
+
+
+<main>
+	
+	<!-- HEADER 
+	================================================== --> 
+	<header>
+		<!-- Logo -->
+		<a data-type="ajax-load" href="index.html" class="logo">
+			<img src="img/logo.png">
+		</a>
+		<!-- Menu -->
+		<div class="menu">
+			<span></span>
+			<span></span>
+		</div>
+	</header>
+
+<div id="smooth-scroll">
+<!-- ALL PROJECTS
+==================================================-->
+    
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+
+    
+<div class="all-projects">
+     <div class="theWholeWrapper">
+        <div class="theBanner">
+            <h1 class="theCourseHeading theAssignmentHeading"></h1>
+            <div class="space30"></div>
+            <div class="space30"></div>
+            <span class="categorie">FeedBack/Comments From Student</span>
+            <p class="theDescription" id = "TheAssignmentSubmission"></p>
+            
+         <button class="btn btn-primary theEnrollButton" type="button" onclick = "openFile()">attached File</button>
+            <a href = ""  class = "theFileLink"></a>
+         </div>
+         
+    </div>
+<div class="space30"></div>
+    <div class="space30"></div>
+    
+     <div class="col-lg-8 contact-form box-animation">
+    <!-- contact form -->
+    <div class="space30"></div>
+       <form class="contact-form theContactForm">
+          <div class="row">
+              <!--Name-->
+              
+              
+              
+               
+              <!--Email-->
+          
+              
+              <div class="col-md-12">
+                  <input class="form-inp" id = "review" type="text" placeholder="Your Review of the Submission">
+              </div>
+
+              <button class="btn btn-primary theEnrollButton" type="button" onclick="uploadSubmission()">Submit</button>
+             
+             
+          </div>
+      </form>
+  </div>
+</div>
+
+
+  <!-- FOOTER
+==================================================-->
+<footer>
+  <div class="back-top float-left">
+    <i class="fas fa-chevron-up"></i> <p>Back to Top</p>
+  </div>
+ 
+
+</footer>
+
+</div> <!-- smooth scroll end -->
+
+<div class="right-menu">
+	<div class="menu-close"></div>
+	<div class="page-menu">
+		<ul class = "appendDashboard">
+			<li><a href="../yourStudents/index.html">Home</a></li>
+			<li><a href="../Login/index.html">Login/signup</a></li>
+			<li><a  href="../addAssignment/index.html">Add Assignment</a></li>
+            <li><a  href="../addVideo/index.html">Add Video</a></li>
+            <li><a  href="../liveChat/index.html">Chat With Students</a></li>
+        </ul>
+	</div>
+</div>
+
+
+</main>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+ 
+        <script src="js/firebase.js"></script>
+        
+            
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit-icons.min.js"></script>
+
+	</body>
+</html>

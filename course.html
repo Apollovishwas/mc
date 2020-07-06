@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+<title>mCollege</title>
+<meta charset="UTF-8">
+<!--
+<meta name="description" content="Rooney Portfolio Template">
+<meta name="keywords" content="personal, portfolio">
+-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/loader.css"/>
+
+  	<!--[if lt IE 9]>
+  	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  	<![endif]--> 
+    
+    <!-- FAVICON  -->
+    <link rel="shortcut icon" href="img/miniLogo.png">    
+
+	<!-- Font icons --> 
+    <link rel="stylesheet" href="icon-fonts/fontawesome-5.8.1/css/all.min.css"/>
+
+	   <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
+
+    
+    
+     
+
+</head>
+    
+    
+    <style>
+        
+        
+        body,html {
+            background-color: #141414;
+        }
+    
+     .lds-ellipsis {
+    left: 47%;
+         top: 47%;
+        display:block;
+    }
+        
+        #offer {
+            color: white !important;
+        }
+        
+        
+        .estimatedTimeHeading {
+            margin-bottom: 2%;
+        }
+        
+        
+        .theDesignation {
+            margin-top: 1%;
+        }
+        
+        
+        .estimatedTimeValue {
+            margin-bottom: 1%;
+        }
+        
+        
+        
+        @media (min-width:300px){.theCertificate{margin-top:3%;color:#fff;text-align: center;}.theCertificateImg{margin-top:3%;width:90%;margin-left: 5%; height:auto;position:relative}}@media (min-width:1200px){.theCertificate{text-align:center;margin-top:3%;color:#fff}.theCertificateImg{margin-top:3%;width:800px !important;height:auto;
+            
+            margin-left: 0% !important;
+              position: relative;
+  
+  left: 50% !important;
+  /* bring your own prefixes */
+  transform: translate(-50%, 0%);}}
+    </style>
+
+	<body>
+<div id="my-id" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <h1 class="uk-modal-title">To enroll, follow these instructions</h1>
+        <p class = "yourID"></p>
+        <p class = "courseID"></p>
+        <p >Copy the above ID Numbers! You'll be prompted to enter these ID numbers on payment page.</p>
+
+        <button class="btn btn-primary theEnrollButton" type="button" onclick="makePayment()">Make Payment</button>
+    </div>
+        
+
+<!--        <button class="uk-modal-close" type="button"></button>-->
+    </div>
+</div>
+        
+        
+    <!-- Preloading --> 
+    <div id="preloader">
+      <div class="spinner">
+            <div class="uil-ripple-css" style="transform:scale(0.29);"><div></div><div></div></div>
+        </div>
+    </div>
+
+  <div class="page-loader show"></div>
+
+
+<main>
+	
+	<!-- HEADER 
+	================================================== --> 
+	<header>
+		<!-- Logo -->
+		<a href="index.html" class="logo">
+			<img src="img/logo.png">
+		</a>
+		<!-- Menu -->
+		<div class="menu">
+			<span></span>
+			<span></span>
+		</div>
+	</header>
+
+    
+     <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+    
+<div id="smooth-scroll">
+	
+     <div class="theWholeWrapper">
+        <div class="theBanner">
+            <h1 class="theCourseHeading" id = "courseTitle" ></h1>
+            <p class="theDescription" id = "courseDescription" ></p>
+            <button class="btn btn-primary theEnrollButton" type="button" uk-toggle="target: #my-id">Enroll</button></div>
+        <div class="text-center d-flex flex-row theCardWrap">
+            <div class="d-flex flex-column theCard">
+                <h4 class="estimatedTimeHeading"><strong>ESTIMATED TIME</strong></h4>
+                <h4 class="estimatedTimeValue" id = "EstimatedTime"><strong></strong><br></h4>
+                <p class="theEstimatedAdvice" id = "estimatedTimeQuote">At 10 hours / week&nbsp;<br></p>
+            </div>
+            <div class="d-flex flex-column theCard theSecondAndThirdCard">
+                <h4 class="estimatedTimeHeading"><strong>ENROLL BY</strong><br></h4>
+                <h4 class="estimatedTimeValue" id = "enrollmentLastDate"><strong></strong><br></h4>
+                <p class="theEstimatedAdvice">Refer Timing with Faculty</p>
+            </div>
+            <div class="d-flex flex-column theCard theSecondAndThirdCard">
+                <h4 class="estimatedTimeHeading"><strong>COST</strong></h4>
+                <h4 class="estimatedTimeValue" id = "cost"><strong></strong></h4>
+                <p class="theEstimatedAdvice">Pay online</p>
+            </div>
+        </div>
+        <div id="thePromotion">
+            <h1 class="thePromotionValue" id = "offer"></h1>
+        </div>
+    </div>
+    <h1 class="WhatLearn">What You'll learn</h1>
+    <div class="theLearnExplationWrap">
+        <div class="container" id = "cardAppend">
+           
+          
+        </div>
+    </div>
+    
+    
+     <div class="theWrapper">
+        <h1 class="theCertificate">Certificate</h1><img class="theCertificateImg" src="img/certificate.png"></div>
+    <div id="thePromotion">
+        <h1 class="theFacultyHeading">COURSE CRAFTED BY</h1><img class="theInstructorImage" id = "instructorImage" src="">
+        <h3 class="instructorName" id = "instructorName"></h3>
+        <h6 class="theDesignation" id = "theDesignation"></h6><button class="btn btn-primary theEnrollButton" type="button" onclick = "openTeacherLinkedIn() ">View Profile</button></div>
+   
+    
+    
+    
+    
+    <footer>
+  <div class="back-top float-left">
+    <i class="fas fa-chevron-up"></i> <p>Back to Top</p>
+  </div>
+ 
+
+</footer>
+
+</div> <!-- smooth scroll end -->
+
+<div class="right-menu">
+	<div class="menu-close"></div>
+	<div class="page-menu">
+		<ul class = "appendDashboard">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Login/index.html">Login/signup</a></li>
+            <li><a  href="all-courses.html">Browse Courses</a></li>
+
+	</div>
+</div>
+
+
+</main>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/DetailedCourseView/firebase.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    
+    
+    
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,348 @@
+.btn:not(:disabled):not(.disabled) {
+    background-color: red
+}
+
+.theEnrollButton {
+    color: red
+}
+
+.estimatedTimeHeading {
+    font-weight: 500;
+    color: #8571ea;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    text-align: center
+}
+
+.estimatedTimeValue {
+    text-align: center;
+    max-width: 200px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    color: #fff
+}
+
+.theWholeWrapper {
+    display: flex;
+    flex-direction: column
+}
+
+@media (min-width:1200px) {
+    .theBanner {
+        align-items: center;
+        display: flex;
+        margin-top: 2%;
+        position: relative;
+        left: 5%;
+        text-align: center;
+        background-size: cover;
+        width: 95%;
+        height: auto;
+    }
+
+    .theCourseHeading {
+        color: #fff;
+        font-size: 100px !important;
+        margin: 0;
+        font-weight: 700;
+        letter-spacing: -3px !important;
+        line-height: 140px !important;
+        padding-top: 8%;
+        font-family: Poppins, sans-serif
+    }
+
+    .theDescription {
+        margin-top: 1% !important;
+        color: #fff;
+        font-weight: 600;
+        font-size: 18px !important;
+        opacity: 1;
+        transition: .3s;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        text-decoration: none;
+        
+        width: 50% !important;
+    }
+
+    .btn:not(:disabled):not(.disabled) {
+        font-weight: 300;
+        font-family: Poppins, sans-serif;
+        background-color: #8571ea;
+        height: 50px;
+        width: 150px;
+        margin-top: 3% !important;
+        color: #fff;
+        border: none
+    }
+
+    .d-flex.flex-column.theCard {
+        min-width: 200px !important;
+        max-width: 250px;
+        padding: 35px;
+        background-color: #393939;
+        align-items: center
+    }
+
+    .d-flex.flex-row.theCardWrap {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%
+    }
+
+    .theEstimatedAdvice {
+        text-align: center;
+        max-width: 200px;
+        color: #a6a6a6;
+        font-size: 15px
+    }
+
+    .theSecondAndThirdCard {
+        margin-top: 0 !important;
+        margin-left: 5%
+    }
+
+    #thePromotion {
+        margin: 4% auto auto;
+        background-color: #393939;
+        padding: 30px;
+        color: #fff;
+        text-align: center;
+        width: 62% !important
+    }
+
+    .thePromotionValue {
+        font-size: 26px !important;
+        font-family: Poppins, sans-serif
+    }
+
+    .WhatLearn {
+        margin-top: 4% !important;
+        margin-bottom: 3% !important;
+        width: 100%;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        color: #fff
+    }
+
+    .row.cardOne {
+        margin-top: 3% !important;
+        padding: 30px;
+        margin: auto;
+        width: 70% !important;
+        background-color: #393939
+    }
+
+    .theLearnHeading {
+        text-align: left !important;
+        margin-top: 2%;
+        font-weight: 500;
+        color: #8571ea;
+        font-family: Poppins, sans-serif;
+        font-size: 14px
+    }
+
+    .theLearningPara {
+        text-align: left !important;
+        margin-top: 3%;
+        font-size: 20px;
+        position: relative;
+        opacity: 1;
+        font-family: Poppins, sans-serif;
+        color: #fff
+    }
+}
+
+.theLearnExplationWrap {
+    margin-top: 1%
+}
+
+@media (min-width:300px) {
+    .theBanner {
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        margin-top: 2%;
+        position: relative;
+        left: 5%;
+        text-align: center;
+        background-size: cover;
+        width: 90%;
+        height: auto;
+        padding-bottom: 25px
+    }
+
+    .theCourseHeading {
+        color: #fff;
+        font-size: 62px;
+        margin: 0;
+        font-weight: 700;
+        letter-spacing: -3px;
+        line-height: 82px;
+        padding-top: 8%;
+        font-family: Poppins, sans-serif
+    }
+
+    .theDescription {
+        vertical-align: middle;
+        margin-top: 5%;
+        color: #fff;
+        font-weight: 600;
+        font-size: 15px;
+        opacity: 1;
+        transition: .3s;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        text-decoration: none;
+        text-align: center;
+        width: 90%
+    }
+
+    .btn:not(:disabled):not(.disabled) {
+        font-weight: 300;
+        font-family: Poppins, sans-serif;
+        background-color: #8571ea;
+        height: 50px;
+        width: 150px;
+        margin-top: 10%;
+        color: #fff;
+        border: none
+    }
+
+    .d-flex.flex-column.theCard {
+        min-width: 90%;
+        max-width: 250px;
+        padding: 30px;
+        background-color: #393939;
+        align-items: center
+    }
+
+    .d-flex.flex-row.theCardWrap {
+        margin-top: 5%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .theEstimatedAdvice {
+        text-align: center;
+        max-width: 200px;
+        color: #a6a6a6;
+        font-size: 15px
+    }
+
+    .theSecondAndThirdCard {
+        margin-top: 5%
+    }
+
+    #thePromotion {
+        margin: 4% auto auto;
+        background-color: #393939;
+        padding: 30px;
+        color: #fff;
+        text-align: center;
+        width: 90%
+    }
+
+    .thePromotionValue {
+        font-size: 22px;
+        font-family: Poppins, sans-serif
+    }
+
+    .WhatLearn {
+        margin-bottom: 10%;
+        width: 100%;
+        text-align: center;
+        margin-top: 4%;
+        font-family: Poppins, sans-serif;
+        color: #fff
+    }
+
+    .row.cardOne {
+        margin-top: 3% !important;
+        padding: 30px;
+        margin: auto;
+        width: 90%;
+        background-color: #393939
+    }
+
+    .theLearnHeading {
+        text-align: center;
+        margin-top: 2%;
+        font-weight: 500;
+        color: #8571ea;
+        font-family: Poppins, sans-serif;
+        font-size: 14px
+    }
+
+    .theLearningPara {
+        text-align: center;
+        margin-top: 3%;
+        font-size: 20px;
+        opacity: 1;
+        font-family: Poppins, sans-serif;
+        width: 100%;
+        color: #fff
+    }
+
+    .fa.fa-circle.theCircle {
+        visibility: hidden;
+        margin-right: 3%;
+        font-size: 15px
+    }
+
+    .theInstructorImage {
+        border-radius: 50%;
+        width: 40%;
+        height: auto;
+        margin-top: 3%
+    }
+}
+
+@media (min-width:1200px) {
+    .fa.fa-circle.theCircle {
+        visibility: visible;
+        margin-right: 3%;
+        font-size: 15px
+    }
+
+    .theInstructorImage {
+        border-radius: 50%;
+        width: 40%;
+        height: auto;
+        margin-top: 3%
+    }
+}
+
+.theFacultyHeading {
+    color: #8571ea;
+    font-family: Poppins, sans-serif;
+    font-size: 25Px
+}
+
+.instructorName {
+    margin-top: 3%;
+    color: #fff;
+    font-family: Poppins, sans-serif
+}
+
+.theDesignation {
+    color: #a6a6a6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1200px){#theCardBody{border:none;background-repeat:no-repeat;background-size:cover;color:#fff;background-image:url(https://images.unsplash.com/photo-1593006082891-00053bcb17b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80);margin-top:2%!important;margin-left:2%!important;text-align:center;width:40%!important;padding:70px}#cardsWrapper{margin-left:10%;margin-top:5%}}@media (min-width:300px){#theCardBody{border:none;background-repeat:no-repeat;background-size:cover;color:#fff;background-image:url(https://images.unsplash.com/photo-1593006082891-00053bcb17b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80);margin-top:5%;margin-left:0;text-align:center;width:90%;padding:70px}#cardsWrapper{margin-left:10%;margin-top:5%}}

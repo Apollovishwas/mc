@@ -1,0 +1,167 @@
+@media (min-width: 1200px) {
+  #wrapperDiv {
+    /*overflow-y: scroll;*/
+    /*top: 15.5%;*/
+    /*left: 15.5%;*/
+    position: fixed;
+    /*min-width: 60%;*/
+    /*min-height: 80%;*/
+    height: 600px !important;
+    width: 70% !important;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*/* bring your own prefixes */  transform: translate(-50%, -50%);*/
+  }
+}
+
+@media (min-width: 300px) {
+  #wrapperDiv {
+    /*overflow-y: scroll;*/
+    /*top: 15.5%;*/
+    /*left: 15.5%;*/
+    position: fixed;
+    /*min-width: 60%;*/
+    /*min-height: 80%;*/
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*/* bring your own prefixes */  transform: translate(-50%, -50%);*/
+  }
+}
+
+@media (min-width: 1200px) {
+  .theSendDiv {
+    position: fixed;
+    width: 100% !important;
+    bottom: 0px;
+    position: absolute;
+  }
+}
+
+@media (min-width: 300px) {
+  .theSendDiv {
+    position: fixed;
+    width: 100% !important;
+    bottom: 0px;
+    position: absolute;
+  }
+}
+
+@media (min-width: 1200px) {
+  .theTextInput {
+    background-color: rgb(27,27,27);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    color: white !important;
+    width: 100%;
+    border: none;
+  }
+}
+
+@media (min-width: 300px) {
+  .theTextInput {
+    background-color: rgb(27,27,27);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    color: white !important;
+    width: 100%;
+    border: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sendButton {
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: #8571ea;
+  }
+}
+
+@media (min-width: 300px) {
+  .sendButton {
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: #8571ea;
+  }
+}
+
+
+#theMessage {
+    color: red;
+      font-size: 10px !important;
+  }
+
+@media (min-width: 1200px) {
+  #theMessage {
+    color: white;
+      font-size: 22px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #theMessageContainer {
+    overflow-y: scroll;
+    margin-top: 2%;
+  }
+}
+
+@media (min-width: 300px) {
+  #theMessageContainer {
+    overflow-y: scroll;
+    margin-top: 2%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .themessageCard {
+    margin-top: 3%;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #8571ea;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 300px) {
+  .themessageCard {
+    margin-top: 3%;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #8571ea;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #theName {
+    color: white;
+  }
+}
+
+@media (min-width: 300px) {
+  #theCourse-name {
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #theCourse-name {
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+  }
+}
+

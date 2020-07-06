@@ -1,0 +1,85 @@
+@media (min-width:1200px) {
+    .d-flex.flex-column.TheCard {
+        background-size: cover;
+        margin-top: 3% !important;
+        color: #fff;
+        width: 90%;
+        padding: 85px !important;
+        margin: auto
+    }
+}
+
+@media (min-width:300px) {
+    .d-flex.flex-column.TheCard {
+        margin-top: 3% !important;
+        color: #fff;
+        width: 90%;
+        padding: 60px;
+        margin: auto
+    }
+
+    .theCourseName {
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        font-weight: 600;
+        font-family: Poppins, sans-serif
+    }
+
+    #theNumber {
+        padding-right: 20px
+    }
+}
+
+#theCardWrap {
+    margin-top: 1%
+}
+
+@media (min-width:300px) {
+    #yourCourses {
+        text-align: center;
+        margin-top: 2% !important;
+        margin-left: 5%;
+        color: #fff;
+        font-size: 25px;
+        font-weight: 600;
+        font-family: Poppins, sans-serif
+    }
+}
+
+@media (min-width:1200px) {
+    .theCourseName {
+        align-items: start !important;
+        justify-content: start !important;
+        font-size: 50px;
+        font-weight: 600;
+        font-family: Poppins, sans-serif
+    }
+
+    #theNumber {
+        padding-right: 20px
+    }
+
+    #yourCourses {
+        position: relative;
+        text-align: left;
+        margin-top: 90%;
+        margin-left: 5%;
+        color: #fff;
+        font-size: 40px;
+        font-weight: 600;
+        font-family: Poppins, sans-serif
+    }
+
+    #numberAndTag {
+        justify-content: start !important;
+        align-items: flex-start !important
+    }
+}
+
+@media (min-width:300px) {
+    #numberAndTag {
+        align-items: center;
+        justify-content: center
+    }
+}

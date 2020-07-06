@@ -1,0 +1,25 @@
+[debug] [2020-07-06T09:50:52.220Z] ----------------------------------------------------------------------
+[debug] [2020-07-06T09:50:52.222Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-07-06T09:50:52.222Z] CLI Version:   7.5.0
+[debug] [2020-07-06T09:50:52.222Z] Platform:      darwin
+[debug] [2020-07-06T09:50:52.222Z] Node Version:  v12.14.1
+[debug] [2020-07-06T09:50:52.228Z] Time:          Mon Jul 06 2020 15:20:52 GMT+0530 (India Standard Time)
+[debug] [2020-07-06T09:50:52.228Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-07-06T09:50:52.241Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-06T09:50:52.241Z] > authorizing via signed-in user
+[debug] [2020-07-06T09:50:52.241Z] [iam] checking project microcollege-7f868 for permissions ["firebase.projects.get"]
+[debug] [2020-07-06T09:50:52.243Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/microcollege-7f868:testIamPermissions  
+
+[debug] [2020-07-06T09:50:54.179Z] <<< HTTP RESPONSE 200
+[debug] [2020-07-06T09:50:54.181Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/microcollege-7f868  
+ 
+[debug] [2020-07-06T09:50:54.658Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/apollovishwas/Documents/PRODUCTION/mCollege/MainFiles'...
+[info] 
+[debug] [2020-07-06T09:50:54.661Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/microcollege-7f868/webApps/-/config  
+ 
+[debug] [2020-07-06T09:50:55.946Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000

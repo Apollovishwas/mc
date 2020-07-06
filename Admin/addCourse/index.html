@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+<title>Add Course</title>
+<meta charset="UTF-8">
+<meta name="description" content="Rooney Portfolio Template">
+<meta name="keywords" content="personal, portfolio">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!-- Stylesheets -->
+        <link rel="stylesheet" href="assets/css/styles.min.css">
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+  	<!--[if lt IE 9]>
+  	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  	<![endif]--> 
+    
+    <!-- FAVICON  -->
+    <link rel="shortcut icon" href="img/favico.png">    
+
+	<!-- Font icons --> 
+    <link rel="stylesheet" href="icon-fonts/fontawesome-5.8.1/css/all.min.css"/>
+
+	   <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/css/uikit.min.css"/>
+
+<style>
+    
+     body,html {
+        background-color: #141414 !important;
+    }
+    
+    
+    .image{
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+    
+    
+    .cardsAppend {
+        margin-top: 7%;
+    }
+    
+    
+    .yourCourses {
+        color: white;
+        margin-top:5%;
+    }
+    
+    
+    
+    .theChapterHeading {
+        
+        font-size: 35px !important;
+    }
+    </style>
+</head>
+
+	<body>
+
+    <!-- Preloading --> 
+    <div id="preloader">
+      <div class="spinner">
+            <div class="uil-ripple-css" style="transform:scale(0.29);"><div></div><div></div></div>
+        </div>
+    </div>
+
+  <div class="page-loader show"></div>
+
+
+<main>
+	
+	<!-- HEADER 
+	================================================== --> 
+	<header>
+		<!-- Logo -->
+		<a data-type="ajax-load" href="index.html" class="logo">
+			<img src="img/logo.png">
+		</a>
+		<!-- Menu -->
+		<div class="menu">
+			<span></span>
+			<span></span>
+		</div>
+	</header>
+
+<div id="smooth-scroll">
+<!-- ALL PROJECTS
+==================================================-->
+<div class="all-projects">
+     <div class="theWholeWrapper">
+        <div class="theBanner" style="background-image: url(https://images.unsplash.com/photo-1498758536662-35b82cd15e29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);">
+            <h1 class="theCourseHeading">Add Course</h1><div class="space30"></div></div>
+    </div>
+
+    
+    <!-- contact form -->
+    <div class="space30"></div>
+    <div class="space30"></div>
+
+      <form class="contact-form">
+          <div class="row">
+              
+              <div class="col-md-6">
+                  <input class="form-inp" id = "CourseTitle" type="text" placeholder="CourseTitle">
+              </div>
+              <div class="col-md-6">
+                  <input class="form-inp" id = "courseDescription" type="text" placeholder="courseDescription">
+              </div>
+              
+               <div class="col-md-4">
+                  <input class="form-inp" id = "enrollmentLastDate" type="text" placeholder="enrollmentLastDate">
+              </div>
+               <div class="col-md-4">
+                  <input class="form-inp" id = "estimatedTime" type="text" placeholder="Estimated Time Quote(Hours per week)">
+              </div>
+               <div class="col-md-4">
+                  <input class="form-inp" id = "Duration" type="text" placeholder="Course Duration">
+              </div>
+              
+                <div class="col-md-4">
+                  <input class="form-inp" id = "teacherID" type="text" placeholder="teacherID">
+              </div>
+              
+               <div class="col-md-4">
+                  <input class="form-inp" id = "courseID" type="text" placeholder="courseID(any 4 digit number)">
+              </div>
+              
+               <div class="col-md-4">
+                  <input class="form-inp" id = "cost" type="text" placeholder="cost">
+              </div>
+              
+              <div class="col-md-6">
+                  <input class="form-inp" id = "bgImageURL" type="text" placeholder="bgImageURL">
+              </div>
+              
+              <div class="col-md-6">
+                  <input class="form-inp" id = "Tag" type="text" placeholder="Tag(new/exclusive)">
+              </div>
+              
+             
+             
+              
+              
+              
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "detailsAboutCourse" type="text" placeholder="Details about your the Course">
+              </div>
+              
+              <div class="space30"></div>
+              
+              
+              <h6 class="theCourseHeading theChapterHeading">Chapter 1</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title1" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc1" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+              
+              
+               <h6 class="theCourseHeading theChapterHeading">Chapter 2</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title2" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc2" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+              
+              
+              
+               <h6 class="theCourseHeading theChapterHeading">Chapter 3</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title3" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc3" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+              
+              
+              
+              
+               <h6 class="theCourseHeading theChapterHeading">Chapter 4</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title4" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc4" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+              
+              
+              
+              
+               <h6 class="theCourseHeading theChapterHeading">Chapter 5</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title5" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc5" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+              
+              
+              
+               <h6 class="theCourseHeading theChapterHeading">Chapter 6</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title6" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc6" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+              
+              
+              
+               <h6 class="theCourseHeading theChapterHeading">Chapter 7</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title7" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc7" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+              
+              
+               <h6 class="theCourseHeading theChapterHeading">Chapter 8</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title8" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc8" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+              
+              
+              
+               <h6 class="theCourseHeading theChapterHeading">Chapter 9</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title9" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc9" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+               <h6 class="theCourseHeading theChapterHeading">Chapter 10</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title10" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc10" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+               <h6 class="theCourseHeading theChapterHeading">Chapter 11</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title11" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc11" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+               <h6 class="theCourseHeading theChapterHeading">Chapter 12</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title12" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc12" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+               <h6 class="theCourseHeading theChapterHeading">Chapter 13</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title13" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc13" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+               <h6 class="theCourseHeading theChapterHeading">Chapter 14</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title14" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc14" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+               <h6 class="theCourseHeading theChapterHeading">Chapter 15</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title15" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc15" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+               <h6 class="theCourseHeading theChapterHeading">Chapter 16</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title16" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc16" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+               <h6 class="theCourseHeading theChapterHeading">Chapter 17</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title17" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc17" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+              v
+               <h6 class="theCourseHeading theChapterHeading">Chapter 18</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title18" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc18" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+               <h6 class="theCourseHeading theChapterHeading">Chapter 19</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title19" type="text" placeholder="Title(Leave blank if you dont have any)">
+              </div>
+             
+             <div class="col-md-12">
+                  <input class="form-inp" id = "desc19" type="text" placeholder="description (Leave blank if you dont have any)">
+              </div>
+               <h6 class="theCourseHeading theChapterHeading">Chapter 20</h6>
+                 <div class="col-md-12">
+                  <input class="form-inp" id = "title20" type="text" placeholder="Title(Leave blank if you dont have any)">
+                <input class="form-inp" id = "desc20" type="text" placeholder="description (Leave blank if you dont have any)">
+
+              </div>
+             
+             
+              
+              
+              <button class="btn btn-primary theEnrollButton" type="button" onclick="writeCourse()">Save</button>
+             <div class="space30"></div><div class="space30"></div>
+          </div>
+      </form>
+  </div>
+</div>
+    
+
+
+
+
+ <!-- smooth scroll end -->
+
+<div class="right-menu">
+	<div class="menu-close"></div>
+	<div class="page-menu">
+		<ul class = "appendDashboard">
+			<li><a href="../AllStudents/index.html">Home</a></li>
+			<li><a href="../AllTeachers/index.html">All Teachers</a></li>
+            <li><a  href="#">Add courses</a></li>
+            <li><a  href="../EnrollStudent/index.html">Enroll a student</a></li>
+            <li><a  href="../AddAnnouncement/index.html">Add Announcement</a></li>
+        </ul>
+	</div>
+</div>
+
+
+</main>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+ 
+        <script src="js/firebase.js"></script>
+        
+             
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit-icons.min.js"></script>
+
+	</body>
+</html>
